@@ -14,52 +14,49 @@
 /* TODO CSS-01: Atur jenis font, warna teks, warna latar belakang,
    margin, dan padding dasar halaman. */
 body {
+  font-family: Arial, sans-serif;
+  color: blue;
+  background-color: aliceblue;
+  margin: 0;
+  padding: 20px;
 }
 
 /* TODO CSS-02: Atur lebar konten, posisi, padding, margin,
    border dan border-radius seperlunya. */
 .container {
+  max-width: 800px;
+  margin: 30 auto;
+  padding: 25px;
+  border: 1px seashell;
+  border-radius: 12px;
 }
 
-.kepala-halaman {
-}
+.kepala-halaman {}
 
-.panel {
-}
+.panel {}
 
 /* TODO CSS-03: Atur ukuran input, padding, jarak antar elemen,
    warna tombol, dan tampilan yang konsisten. */
-.form-baris {
-}
+.form-baris {}
 
-.form-baris label {
-}
+.form-baris label {}
 
-.form-baris input {
-}
+.form-baris input {}
 
-.aksi {
-}
+.aksi {}
 
-.aksi button {
-}
+.aksi button {}
 
 /* TODO CSS-04: Rapikan daftar kegiatan, jumlah kegiatan, dan pesan
    status. Bedakan tampilan status berhasil dan gagal. */
-#daftarKegiatan {
-}
+#daftarKegiatan {}
 
-#daftarKegiatan li {
-}
+#daftarKegiatan li {}
 
-.ringkasan {
-}
+.ringkasan {}
 
-#pesanStatus {
-}
+#pesanStatus {}
 
-#pesanStatus.berhasil {
-}
+#pesanStatus.berhasil {}
 
-#pesanStatus.gagal {
-}
+#pesanStatus.gagal {}
