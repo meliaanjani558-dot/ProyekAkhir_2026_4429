@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- TODO HTML-01:
-       Lengkapi judul tab browser pada <title> di bawah.
-       Kemudian lengkapi judul utama <h1> dan paragraf deskripsi <p>
-       di bagian header halaman. -->
-  <title>pengelolaan kegiatan kelas</title>
+    Lengkapi judul tab browser pada <title> di bawah.
+    Kemudian lengkapi judul utama <h1> dan paragraf deskripsi <p>
+      di bagian header halaman. -->
+  <title>Pengelolaan Kegiatan Kelas</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
@@ -17,20 +17,23 @@
 <body>
   <main class="container">
     <header class="kepala-halaman">
-      <h1>pengelolaan kegiatan kelas</h1>
-      <p>aplikasi ini digunakan untuk mengatur kegiatan kelas secara praktis.</p>
+      <h1>Pengelolaan Kegiatan Kelas</h1>
+      <p>Aplikasi ini dibuat untuk membantu mengatur kegiatan kelas agar lebih mudah dan rapi. Pengguna bisa menambahkan
+        kegiatan baru, mencari kegiatan yang sudah dicatat, serta melihat semua kegiatan dalam satu tempat. Dengan
+        adanya aplikasi ini, kita jadi lebih mudah mengingat kegiatan yang sudah direncanakan dan tidak perlu bingung
+        mencari catatannya lagi.</p>
     </header>
 
     <section class="panel" aria-label="Pengelolaan kegiatan">
       <h2>Kelola Kegiatan</h2>
 
       <!-- TODO HTML-02:
-           Lengkapi label, input teks, placeholder, dan ID semua elemen.
-           Acuan ID: inputKegiatan, btnTambah, btnCari, btnHapus.
-           Gunakan type="button" pada ketiga tombol. -->
+        Lengkapi label, input teks, placeholder, dan ID semua elemen.
+          Acuan ID: inputKegiatan, btnTambah, btnCari, btnHapus.
+          Gunakan type="button" pada ketiga tombol. -->
       <div class="form-baris">
-        <label for="inputKegiatan">kuis</label>
-        <input type="" id="text" placeholder="kuis">
+        <label for="inputKegiatan">Nama kegiatan</label>
+        <input type="text" id="inputKegiatan" placeholder="Masukkan nama kegiatan">
       </div>
 
       <div class="aksi">
@@ -44,12 +47,12 @@
       <h2>Daftar Kegiatan</h2>
 
       <!-- TODO HTML-03:
-           Lengkapi ID untuk daftar, jumlah, dan pesan status.
-           Acuan ID: daftarKegiatan, totalKegiatan, pesanStatus. -->
+          Lengkapi ID untuk daftar, jumlah, dan pesan status.
+          Acuan ID: daftarKegiatan, totalKegiatan, pesanStatus. -->
       <ol id="daftarKegiatan"></ol>
 
-      <p class="ringkasan">Jumlah kegiatan: <strong id="">-</strong></p>
-      <p id="" aria-live="polite">Status kegiatan akan muncul di sini.</p>
+      <p class="ringkasan">Jumlah kegiatan: <strong id="totalKegiatan">-</strong></p>
+      <p id="pesanStatus" aria-live="polite">Status kegiatan akan muncul di sini.</p>
     </section>
   </main>
 
